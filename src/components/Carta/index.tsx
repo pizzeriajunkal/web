@@ -8,25 +8,26 @@ import Tabs from "./Tabs";
 const pizzas: Item[] = [
   {
     name: "Margarita",
-    desc: "Tomate, mozzarella di latte, parmesano, aceite de oliva y albahaca.",
+    desc: "Salsa de tomate, mozzarella Fior di latte, parmesano, aceite de oliva y albahaca.",
     desc_eus:
-      "Tomate, mozzarella di latte, parmigiano gazta, oliba olioa eta albahaca.",
+      "Tomate saltsa, mozzarella Fior di latte, parmigiano gazta, oliba olioa eta albahaca.",
     image_path: "/images/carta/pizza_margarita.jpeg",
     price: "10,00 €",
     recommended: true,
   },
   {
     name: "Jamón y Queso",
-    desc: "Tomate, mozzarella di latte, jamón cocido, emmental y orégano.",
-    desc_eus: "Tomate, mozzarella di latte, york, emmental eta oreganoa.",
+    desc: "Salsa de tomate, mozzarella Fior di latte, jamón cocido, emmental y orégano.",
+    desc_eus:
+      "Tomate saltsa, mozzarella Fior di latte, york, emmental eta oreganoa.",
     image_path: "/images/carta/pizza_jamon_y_queso.jpeg",
     price: "11,50 €",
   },
   {
     name: "Karbonara",
-    desc: "Mozzarella di Latte, nata, bacon, cebolla pochada, parmesano, pimienta blanca y yema de huevo.",
+    desc: "Mozzarella Fior di Latte, nata, bacon, cebolla pochada, parmesano, pimienta blanca y yema de huevo.",
     desc_eus:
-      "Mozzarella di Latte, esne gaina, hirugiharra, tipula potxatua, parmigiano, piper zuria eta gorringoa.",
+      "Mozzarella Fior di Latte, esne gaina, hirugiharra, tipula potxatua, parmigiano, piper zuria eta gorringoa.",
     image_path: "/images/carta/pizza_carbonara.jpeg",
     price: "12,50 €",
     recommended: true,
@@ -34,26 +35,26 @@ const pizzas: Item[] = [
 
   {
     name: "Itsaso",
-    desc: "Tomate, mozzarella di latte, atún, pimiento rojo y cebolla pochada.",
+    desc: "Salsa de tomate, mozzarella Fior di latte, atún, pimiento rojo y cebolla pochada.",
     desc_eus:
-      "Tomate, mozzarella di latte, atuna, piper gorria eta tipula potxatua.",
+      "Tomate saltsa, mozzarella Fior di latte, atuna, piper gorria eta tipula potxatua.",
     image_path: "/images/carta/pizza_itsaso.jpeg",
     price: "13,00 €",
   },
   {
     name: "Barbakoa",
-    desc: "Tomate, mozzarella di latte, carne de ternera, bacon, cebolla y salsa barbacoa.",
+    desc: "Salsa de tomate, mozzarella Fior di latte, carne de ternera, bacon, cebolla y salsa barbacoa.",
     desc_eus:
-      "Tomate, mozzarella di latte, txahala, hirugiharra, tipula eta barbakoa saltsa.",
+      "Tomate saltsa, mozzarella Fior di latte, txahala, hirugiharra, tipula eta barbakoa saltsa.",
     image_path: "/images/carta/pizza_barbacoa.jpeg",
     price: "13,00 €",
     recommended: true,
   },
   {
     name: "Cuatro Quesos",
-    desc: "Mozzarella di Latte, gorgonzola, ricota y parmesano (tomate opcional).",
+    desc: "Mozzarella Fior di Latte, gorgonzola, ricota y parmesano (salsa de tomate opcional).",
     desc_eus:
-      "Mozzarella di Latte, gorgonzola, ricota y parmigiano (tomate aukerakoa).",
+      "Mozzarella Fior di Latte, gorgonzola, ricota y parmigiano (tomate saltsa aukerakoa).",
     image_path: "/images/carta/pizza_cuatro_quesos.jpeg",
     price: "13,00 €",
     recommended: true,
@@ -61,66 +62,61 @@ const pizzas: Item[] = [
 
   {
     name: "Baserri",
-    desc: "Salsa de carrilleras, mozzarella di latte, carrillera de cerdo, pimiento rojo y cremoso de patata.",
+    desc: "Salsa de carrilleras, mozzarella Fior di latte, carrillera de cerdo, pimiento rojo y cremoso de patata.",
     desc_eus:
-      "Masailak saltsa, mozzarella di latte, txerri masailak, piper gorria eta patata purea.",
+      "Masailak saltsa, mozzarella Fior di latte, txerri masailak, piper gorria eta patata purea.",
     image_path: "/images/carta/pizza_baserri.jpeg",
     price: "14,00 €",
   },
   {
     name: "Pollo Ali Oli",
-    desc: "Mozzarella di Latte, pollo, nata, champiñon, cebolla pochada y salsa ali oli.",
+    desc: "Mozzarella Fior di Latte, pollo, nata, champiñon, cebolla pochada y salsa ali oli.",
     desc_eus:
-      "Mozzarella di Latte, gorgonzola, ricota y parmigiano (tomate aukerakoa).",
+      "Mozzarella Fior di Latte, gorgonzola, ricota y parmigiano (tomate aukerakoa).",
     image_path: "/images/carta/pizza_pollo_alioli.jpeg",
     price: "13,00 €",
     recommended: true,
   },
   {
-    name: "Riojana",
-    desc: "Tomate, mozzarella di latte, chorizo riojano, patata y parmesano.",
-    desc_eus: "Tomate, mozzarella di latte, txorizoa, patata eta parmigiano.",
-    image_path: "/images/carta/pizza_riojana.jpeg",
-    price: "13,00 €",
-  },
-  {
     name: "Ahuntza",
-    desc: "Mozzarella di Latte, queso de cabra, bacon, nueces y membrillo.",
+    desc: "Mozzarella Fior di Latte, queso de cabra, bacon, nueces y membrillo.",
     desc_eus:
-      "Mozzarella di Latte, ahuntz gazta, hirugiharra, intxaurrak eta irasagarra.",
+      "Mozzarella Fior di Latte, ahuntz gazta, hirugiharra, intxaurrak eta irasagarra.",
     image_path: "/images/carta/pizza_ahuntza.jpeg",
     price: "13,00 €",
     recommended: true,
   },
   {
     name: "Junkal",
-    desc: "Mozzarella di Latte, crema de langostinos, cebolla, puerros y langostinos.",
-    desc_eus: "Mozzarella di Latte, ganba krema, tipula, porruak eta ganbak.",
+    desc: "Mozzarella Fior di Latte, crema de langostinos, cebolla, puerros y langostinos.",
+    desc_eus:
+      "Mozzarella Fior di Latte, ganba krema, tipula, porruak eta ganbak.",
     image_path: "/images/carta/pizza_junkal.jpeg",
     price: "15,00 €",
   },
   {
     name: "Vegana",
-    desc: "Crema de guisantes, calabacín, alcachofas, cebolla pochada, pimiento rojo y aceite de oliva.",
+    desc: "Salsa de tomate, calabacín, berenjena y pimiento verde asados, cebolla pochada, y salsa romesco",
     desc_eus:
-      "Ilarra krema, kalabazin, alkatxofa, tipula potxatua, piper gorria eta oliba olioa.",
+      "Tomate saltsa, kalabazin, alkatxofa, tipula potxatua, piper gorria eta oliba olioa.",
     image_path: "/images/carta/pizza_vegana.jpeg",
     price: "14,00 €",
     recommended: true,
   },
   {
     name: "Bolonia",
-    desc: "Mozzarella di Latte, mortadela de Bolonia, ricotta y tapenade.",
-    desc_eus: "Mozzarella di Latte, bologna mortadela, ricotta eta tapenade.",
+    desc: "Salsa de tomate, mozzarella Fior di Latte, mortadela de Bolonia, ricotta y tapenade.",
+    desc_eus:
+      "Tomate saltsa, mozzarella Fior di Latte, bologna mortadela, ricotta eta tapenade.",
     image_path: "/images/carta/pizza_bolonia.jpeg",
     price: "14,00 €",
     recommended: true,
   },
   {
     name: "Gorgonpera",
-    desc: "Mozzarella di Latte, jamón serrano curado, gorgonzola, pera y reducción de vino dulce.",
+    desc: "Mozzarella Fior di Latte, jamón serrano curado, gorgonzola, pera y reducción de vino dulce.",
     desc_eus:
-      "Mozzarella di Latte, urdaiazpiko serrano ondua, gorgonzola, madaria eta ardo gozoaren murrizketa.",
+      "Mozzarella Fior di Latte, urdaiazpiko serrano ondua, gorgonzola, madaria eta ardo gozoaren murrizketa.",
     image_path: "/images/carta/pizza_gorgonpera.jpeg",
     price: "14,00 €",
   },
@@ -137,8 +133,8 @@ const postres: Item[] = [
   },
   {
     name: "Tiramisú",
-    desc: "Bizcocho empapado en cafe, mascarpone, Amaretto y cacao.",
-    desc_eus: "Kafean bustitako tarta, mascarpone, Amaretto eta kakao.",
+    desc: "Bizcocho empapado en cafe, mascarpone y cacao.",
+    desc_eus: "Kafean bustitako tarta, mascarpone eta kakao.",
     image_path: "/images/carta/postres/tiramisu.jpeg",
     price: "4,00 €",
   },
