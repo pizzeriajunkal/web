@@ -109,7 +109,7 @@ const pizzas: Item[] = [
     desc_eus:
       "Tomate saltsa, mozzarella Fior di Latte, bologna mortadela, ricotta eta tapenade.",
     image_path: "/images/carta/pizza_bolonia.jpeg",
-    price: "14,00 €",
+    price: "13,00 €",
     recommended: true,
   },
   {
@@ -136,7 +136,7 @@ const postres: Item[] = [
     desc: "Bizcocho empapado en cafe, mascarpone y cacao.",
     desc_eus: "Kafean bustitako tarta, mascarpone eta kakao.",
     image_path: "/images/carta/postres/tiramisu.jpeg",
-    price: "4,00 €",
+    price: "4,50 €",
   },
 ];
 
@@ -159,7 +159,7 @@ const bebidas: Item[] = [
   {
     name: "Estrella Galicia",
     image_path: "/images/carta/bebidas/cerveza-estrella-galicia.jpeg",
-    price: "3,00 €",
+    price: "1,50 €",
   },
   {
     name: "Bidasoa IPA",
