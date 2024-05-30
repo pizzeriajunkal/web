@@ -111,7 +111,7 @@ const MobileNav = ({ open, handleClose }: HeaderProps) => {
                 </p>
                 <div className="flex gap-4 justify-center">
                   <a
-                    href="https://www.instagram.com/pizza_junkal/"
+                    href="https://www.instagram.com/pizzeria_junkal/"
                     target="_blank"
                   >
                     <svg
